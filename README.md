@@ -89,7 +89,13 @@ The conversation is shown in Streamlit UI.
 
 LangSmith is used to trace and evaluate LLM performance (automatically done if enabled in .env).
 
+
+
 ![Screenshot](https://github.com/Annad25/Multi-agent-Rag-Monitoring-with-Langsmith_/raw/main/Screenshot%20(73).png)
+
+![Screenshot](https://github.com/Annad25/Multi-agent-Rag-Monitoring-with-Langsmith_/raw/main/Screenshot%20(75).png)
+
+![Screenshot](https://github.com/Annad25/Multi-agent-Rag-Monitoring-with-Langsmith_/raw/main/Screenshot%20(76).png)
 
 ### 6. Features
 - Intelligent routing using LLM
