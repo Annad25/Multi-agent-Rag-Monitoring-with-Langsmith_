@@ -67,7 +67,7 @@ Replace the keys with your actual:
 -  OpenWeatherMap API key
 -  LangSmith API key
 
-### Run the App
+### 5. Run the App
 After setup is complete, run:
 -  streamlit run frontend.py
 
@@ -88,7 +88,7 @@ The conversation is shown in Streamlit UI.
 
 LangSmith is used to trace and evaluate LLM performance (automatically done if enabled in .env).
 
-### Features
+### 6. Features
 - Intelligent routing using LLM
 
 - Real-time weather data from OpenWeatherMap
