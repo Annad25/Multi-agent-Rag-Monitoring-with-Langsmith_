@@ -72,7 +72,7 @@ After setup is complete, run:
 -  streamlit run frontend.py
 You’ll see a simple chat interface.
 
-- How it Works
+How it Works:
 You type a message in the chat (e.g., "What's the weather in Delhi?" or "Tell me about heart disease").
 
 The LangGraph router classifies your message:
