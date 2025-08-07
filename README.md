@@ -102,4 +102,5 @@ LangSmith is used to trace and evaluate LLM performance (automatically done if e
 - Streamlit-based chat interface
 
 
+# For Rag evaluation please refer to the ipynb notebook in my project 
 
