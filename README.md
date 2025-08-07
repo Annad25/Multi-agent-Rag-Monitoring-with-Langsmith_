@@ -38,4 +38,67 @@ cd anud
 Or clone if it's in GitHub:
 git clone <repo-link>
 cd anud
+```
+
+### 2. Create a virtual environment
+-  python -m venv venv
+-  source venv/bin/activate
+
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+# If requirements.txt is missing, install manually:
+pip install langchain langgraph streamlit openai qdrant-client \
+            langchain-openai langsmith python-dotenv \
+            langchain-community langchain-huggingface \
+            sentence-transformers
+```
+### 4. Add your .env file
+-  Make a file called .env in the root folder and add the following
+-  env
+-  OPENWEATHERMAP_API_KEY=your_openweathermap_key
+
+-  LANGSMITH_TRACING=true
+-  LANGSMITH_ENDPOINT=https://api.smith.langchain.com
+-  LANGSMITH_API_KEY=your_langsmith_key
+-  LANGSMITH_PROJECT=default
+
+Replace the keys with your actual:
+-  OpenWeatherMap API key
+-  LangSmith API key
+
+### Run the App
+After setup is complete, run:
+-  streamlit run frontend.py
+You’ll see a simple chat interface.
+
+- How it Works
+You type a message in the chat (e.g., "What's the weather in Delhi?" or "Tell me about heart disease").
+
+The LangGraph router classifies your message:
+
+If it's about weather → it calls OpenWeatherMap.
+
+If it’s a question → it uses RAG to search the PDF data stored in Qdrant.
+
+It uses Mistral LLM to answer your query.
+
+The conversation is shown in Streamlit UI.
+
+LangSmith is used to trace and evaluate LLM performance (automatically done if enabled in .env).
+
+### Features
+- Intelligent routing using LLM
+
+- Real-time weather data from OpenWeatherMap
+
+- PDF-based question answering via RAG
+
+- LangSmith evaluation support
+
+- Unit-test friendly structure (separate logic files)
+
+- Streamlit-based chat interface
+
+
 
