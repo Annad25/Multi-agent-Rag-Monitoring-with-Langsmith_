@@ -25,3 +25,17 @@ This project is a simple AI pipeline that does two main things:
 -  ├── frontend.py               # Streamlit UI for chat
 -  ├── .env                      # Contains API keys and LangSmith setup
 -  └── store/                    # Local Qdrant vector database files
+
+## Setup Instructions
+
+### 1. Clone or unzip the project
+
+If you got a `.zip` file:
+
+```bash
+unzip anud.zip
+cd anud
+Or clone if it's in GitHub:
+git clone <repo-link>
+cd anud
+
