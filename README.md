@@ -89,7 +89,7 @@ The conversation is shown in Streamlit UI.
 
 LangSmith is used to trace and evaluate LLM performance (automatically done if enabled in .env).
 
-![Alt text](images/screenshot(75).png)
+![Alt text](Screenshots(75).png)
 
 ### 6. Features
 - Intelligent routing using LLM
