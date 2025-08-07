@@ -74,7 +74,7 @@ After setup is complete, run:
 You’ll see a simple chat interface.
 
 How it Works:
-You type a message in the chat (e.g., "What's the weather in Delhi?" or "Tell me about heart disease").
+You type a message in the chat (e.g., "What's the weather in Delhi?" or "Tell me about the main topic of the document").
 
 The LangGraph router classifies your message:
 
