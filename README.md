@@ -70,6 +70,7 @@ Replace the keys with your actual:
 ### Run the App
 After setup is complete, run:
 -  streamlit run frontend.py
+
 You’ll see a simple chat interface.
 
 How it Works:
