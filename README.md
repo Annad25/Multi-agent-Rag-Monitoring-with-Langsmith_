@@ -15,6 +15,7 @@ This project is a simple AI pipeline that does two main things:
 -  **LangSmith** – tracing and evaluation
 -  **Streamlit** – chat UI for user interaction
 
+
 ###  Project Structure
 -  anud/
 -  │
@@ -87,6 +88,8 @@ It uses Mistral LLM to answer your query.
 The conversation is shown in Streamlit UI.
 
 LangSmith is used to trace and evaluate LLM performance (automatically done if enabled in .env).
+
+![Alt text](images/screenshot(75).png)
 
 ### 6. Features
 - Intelligent routing using LLM
