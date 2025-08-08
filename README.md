@@ -57,6 +57,7 @@ pip install langchain langgraph streamlit openai qdrant-client \
 ### 4. Add your .env file
 -  Make a file called .env in the root folder and add the following
 -  env
+-  Go to openrouter , sign up to create your profile, Choose a model andgenerate your API key, paste that in placeof the OPEN_AI_API key in the code  
 -  OPENWEATHERMAP_API_KEY=your_openweathermap_key
 
 -  LANGSMITH_TRACING=true
